@@ -4,12 +4,11 @@
 
 binary_data = input("Enter the binary data\n")
 
-flag = input("enter flag")
+flag ='0101'
 
 z= int(str(binary_data)+ str(flag))
 
 print(z)
-
 
 
 
