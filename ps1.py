@@ -4,9 +4,11 @@
 
 binary_data = input("Enter the binary data\n")
 
-flag = 0101
+flag = input("enter flag")
 
-print(binary_data,flag)
+z= int(str(binary_data)+ str(flag))
+
+print(z)
 
 
 
